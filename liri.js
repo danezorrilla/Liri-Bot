@@ -75,10 +75,10 @@ function spotifySong(){
             return console.log(err);
         }
         for(var i = 0; i < data.tracks.items.length; i++){
-        console.log(data.tracks.items[i].album.artists[0].name);
-        console.log(data.tracks.items[i].name);
-        console.log(data.tracks.items[i].album.external_urls.spotify);
-        console.log(data.tracks.items[i].album.name);
+        console.log("Artist(s): " + data.tracks.items[i].album.artists[0].name);
+        console.log("The song name: " + data.tracks.items[i].name);
+        console.log("The preview link from Spotify: " + data.tracks.items[i].album.external_urls.spotify);
+        console.log("The album that the song is from: " + data.tracks.items[i].album.name);
         console.log("-----------------------------------------\n")
         }
     });
