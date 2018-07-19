@@ -12,7 +12,7 @@ Instruction:<br>
 6) A list of information will de display on the console.<br>
 <br>
 Process:<br>
-1) npm init my root project, and install the four npm packages
-2) gitignore my .env file
-3) Create keys.js file to hole my keys and export it
+1) npm init my root project, and install the four npm packages<br>
+2) gitignore my .env file<br>
+3) Create keys.js file to hole my keys and export it<br>
 4) Imported my keys and build Liri(See the comments in liri.js for more info); 
